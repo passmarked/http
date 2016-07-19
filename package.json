@@ -7,6 +7,22 @@
     "test": "NODE_ENV=testing mocha"
   },
   "author": "Passmarked <devops@passmarked.com>",
+  "keywords": [
+    "passmarked",
+    "http",
+    "headers",
+    "versioning",
+    "server",
+    "header",
+    "rules",
+    "tests",
+    "pagespeed",
+    "content",
+    "performance",
+    "security",
+    "compatibility",
+    "standards"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "async": "^1.4.2",
