@@ -1,0 +1,23 @@
+{
+  "name": "@passmarked/http",
+  "version": "1.0.0",
+  "description": "Rules related to checking the http headers/protocol details of the request and response from server",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=testing mocha"
+  },
+  "author": "Passmarked <devops@passmarked.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "async": "^1.4.2",
+    "passmarked": "*",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "coffeelint": "^1.9.2",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  }
+}

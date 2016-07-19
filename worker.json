@@ -1,0 +1,5 @@
+{
+  "key": "security.http",
+  "crawl": true,
+  "track": true
+}

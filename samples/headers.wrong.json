@@ -1,0 +1,56 @@
+{
+  "log": {
+    "entries": [
+      {
+        "request": {},
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 15 Oct 2015 16:02:32 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 22 May 2015 13:48:04 GMT"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "X-Content-Type-Options",
+              "value": "It's so rando"
+            },
+            {
+              "name": "X-XSS-Protection",
+              "value": "2; mode=hack"
+            },
+            {
+              "name": "X-Frame-Options",
+              "value": "ACCEPT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.4.7"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "3 White Horses"
+            },
+            {
+              "name": "X-AspNet-Version",
+              "value": "4.0.30319"
+            },
+            {
+              "name": "X-AspNetMvc-Version",
+              "value": "3.0"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
