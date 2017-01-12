@@ -116,6 +116,38 @@ describe('versioning', function() {
 
   });
 
+  it('should not set an error if the header contains brackets', function(done) {
+
+    var payload = passmarked.createPayload({
+
+      url: 'http://example.com'
+
+    }, require('../samples/headers.brackets.json'), '<p>test</p>');
+
+    testFunc(payload, function(err) {
+
+      if(err)
+        assert.fail('Error loading rule function');
+
+      var rules = payload.getRules();
+      if(!rules)
+        assert.fail('No rules set with incorrect headers');
+
+      var rule = _.find(rules, function(rule) {
+
+        return rule.key === 'versioning';
+
+      });
+
+      if(rule)
+        assert.fail('No rule was expected as this is a ECS server - ECS (ewr/15BD)');
+
+      done()
+
+    });
+
+  });
+
   it('should not set anything if the header is absent', function(done) {
 
     var payload = passmarked.createPayload({
