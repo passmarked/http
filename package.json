@@ -1,6 +1,6 @@
 {
   "name": "@passmarked/http",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Rules related to checking the http headers/protocol details of the request and response from server",
   "main": "index.js",
   "scripts": {
